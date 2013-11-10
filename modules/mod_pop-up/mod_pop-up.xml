@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+    <name>mod_pop-up</name>
+    <author>StMarsh</author>
+    <creationDate>November 2013</creationDate>
+    <copyright>Copyright (C) 2013</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>milano_@mail.ru</authorEmail>
+    <authorUrl>http://vk.com/id5666638</authorUrl>
+    <version>1.0.0</version>
+    <description>MOD_POP-UP</description>
+    <files>
+        <filename module="mod_pop-up">mod_pop-up.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_pop-up.xml</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/default.php</filename>
+    </files>
+</extension>

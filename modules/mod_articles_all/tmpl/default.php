@@ -2,7 +2,7 @@
 /**
  * @package		StMarsh
  * @subpackage	mod_articles_all
- * @copyright	(C) 2013
+ * @copyright	(C) 2013 StMarsh
  * @license		GNU General Public License
  */
 
