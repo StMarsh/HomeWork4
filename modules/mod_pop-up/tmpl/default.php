@@ -10,17 +10,12 @@
 defined('_JEXEC') or die;
 
 if ($FirstSes){ ?>
-       <table width="470" border="0" style="font:normal 10pt Trebuchet MS,Georgia,Verdana;">
-            <tbody>
-            <tr>
-                <td colspan="2" style="text-align: center"><b>Картинка исчезнет после перезагрузки</b></td>
-            </tr>
-            <tr>
-                <td colspan="2">&nbsp;<img alt="" src="http://i.imgur.com/8FGCFIS.jpg" /></td>
-            </tr>
-            </tbody>
-        </table>
+       <div class="absol">
+           <div><a href="index.php?option=com_content&view=featured"><img alt="" src="images/banners/welcome_hey.jpg" /></a></div>
+       </div>
 <?php
 
-}?>
-
+}
+$doc = & JFactory::getDocument();
+$doc->addStyleSheet(JURI::root(true) . "/modules/mod_pop-up/style.css");
+?>
