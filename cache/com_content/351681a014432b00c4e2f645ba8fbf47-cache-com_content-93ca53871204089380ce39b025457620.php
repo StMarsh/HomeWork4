@@ -28,7 +28,7 @@
 	<dd class="createdby">
 				Written by Super User		</dd>
 	<dd class="hits">
-	Hits: 38	</dd>
+	Hits: 39	</dd>
 	</dl>
 
 
